@@ -1,0 +1,46 @@
+/* NAV BAR - HOME PAGE */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+  /*background: green;*/
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #1B0C0C;
+}
+
+/******************************/
+
+/* PRODUCT Description */
+
+.desc {
+  font-family: "Segoe UI", Arial,sans-serif;
+  font-weight: 900;
+}
+
+.price{
+   color: "#ff6600"; 
+}
+
+.sz{
+    
+}
